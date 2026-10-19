@@ -4,9 +4,9 @@ I'm a **Business Analytics & AI** graduate student at UT Austin's McCombs School
 
 💡 I enjoy finding practical ways to use data, whether that means building a model, creating a dashboard, or **turning an idea into a practical solution**.
 
-📂 This portfolio includes **12 projects** spanning cloud pipelines, dashboards, regression and classification models, NLP, deep learning, and optimization.
+📂 This portfolio includes **13 projects** spanning AI agents, cloud pipelines, dashboards, regression and classification models, NLP, deep learning, and optimization.
 
-🌱 Right now, I'm exploring **AI agents and pipelines** and looking forward to adding more of that work here soon.
+🌱 Right now, I'm building **AI agents**. My latest one works like a business analyst, from stakeholder interview to finished dashboard, and a supplier risk monitor built on a knowledge graph is next.
 
 🔗 Let's connect on [LinkedIn](https://www.linkedin.com/in/mbulut19).
 
@@ -14,6 +14,7 @@ I'm a **Business Analytics & AI** graduate student at UT Austin's McCombs School
 
 | Project | Description | Tech Stack |
 |---|---|---|
+| [Analyst Agent](https://github.com/bulut19/analyst-agent) | AI agent that turns a plain-English request into an audited dashboard: it interviews the stakeholder, audits the data, agrees on metric definitions, and writes checked SQL. Caught 40/40 planted data errors and answered 25/25 test questions correctly. Includes a [live app](https://analyst-agent-melisa.streamlit.app/). | Python, Claude API, BigQuery, Streamlit |
 | [Wildfire Alert System](https://github.com/bulut19/wildfire-alert-system) | Lambda-architecture cloud pipeline combining 24 years of historical wildfire records with live weather data to predict fire severity and acreage. | Google Cloud (BigQuery ML, Pub/Sub, Cloud Functions), Looker Studio |
 | [Airbnb Revenue Estimator](https://github.com/bulut19/airbnb-revenue-estimator) | Gradient boosting model predicting Austin Airbnb listing revenue from property specs, location, and price. Includes a [live interactive demo](https://austin-airbnb-revenue-estimator.melisa-data.workers.dev/#try). | Python (HistGradientBoostingRegressor) |
 | [Super Bowl Ad Scorecard](https://github.com/bulut19/super-bowl-ad-scorecard) | Scores 2025 Super Bowl ads on likability, brand recall, and message fit from 10,547 YouTube comments, revealing ads that were liked but forgotten. | Python, NLP, Hugging Face Transformers |
